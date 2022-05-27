@@ -14,7 +14,7 @@ li, h3 {
   list-style: none;
 }
 
-input,button{
+input, button{
   outline: none;
 }
 
@@ -50,7 +50,7 @@ input,button{
 .task-text, .task-label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -136,7 +136,7 @@ input,button{
 }
 
 .list-item > .task-text {
-  width: 226px
+  width: 226px;
 }
 
 .delete .delete__img {
@@ -151,7 +151,7 @@ input,button{
 
 /* Completed */
 #completed-tasks .task-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
